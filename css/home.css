@@ -1,0 +1,1086 @@
+*{
+margin:0;
+padding:0;
+}
+
+* a{
+text-decoration:none;
+
+}
+
+/********************************************************************
+                             Wrapper
+*********************************************************************/
+
+
+.wrapper{
+
+position:fixed;
+width:100%;
+height:100px;
+padding-left:48px;
+padding-right:48px;
+margin-bottom:10px;
+padding-bottom:10px;
+border-bottom:1px solid black;
+}
+
+.clearfix{
+overflow:auto
+}
+
+/********************************************************************
+                             Theme
+*********************************************************************/
+
+
+.theme{
+float:left;
+padding-left:100px;
+margin-top:0;
+padding-top:0;
+}
+
+.theme h1{
+font-variant:small-caps;
+font-size:48px;
+color:red;
+margin-top:0;
+padding-top:0;
+}
+.theme p{
+font-size:30px;
+color:green;
+}
+
+/********************************************************************
+                             Logo
+*********************************************************************/
+
+.logo{
+padding-top:10px;
+padding-bottom:10px;
+float:right;
+padding-right:100px;
+margin:0;
+}
+
+/********************************************************************
+                             Navigation 
+*********************************************************************/
+
+nav{
+padding-top:15px;
+padding-bottom:15px;
+border-bottom:2px solid black;
+
+}
+nav ul li{
+display:inline-block;
+margin:15px 10px 10px 70px;
+padding:0 3px;
+border-right:1px solid darkgreen;
+}
+
+nav ul li:last-child{
+border:0;
+}
+
+nav ul li a{
+color:black;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav ul li a:hover{
+background:green;
+color:white;
+}
+
+/********************************************************************
+                             Bar 
+*********************************************************************/
+.bar{
+padding-top:15px;
+padding-bottom:15px;
+
+}
+
+/********************************************************************
+                             Bar-links 
+*********************************************************************/
+.bar-links ul li{
+display:inline-block;
+margin:15px 10px 10px 150px;
+padding:0 3px;
+border-right:1px solid black;
+}
+
+
+.bar-links ul li:last-child{
+border:0;
+}
+.bar-links ul li a{
+color:blue;
+text-decoration:none;
+font-weight:bold;
+}
+.bar-links ul li a:hover{
+background:maroon;
+color:white;
+}
+
+/********************************************************************
+                            1. Home
+*********************************************************************/
+.intro{
+width:1325px;
+
+margin-left:15px;
+margin-right:15px;
+padding-bottom:0;
+
+}
+
+.intro h1{
+text-align:center;
+color:black;
+}
+
+.intro-image{
+width:400px;
+height:420px;
+float:left;
+
+padding-top:25px;
+padding-right:25px;
+padding-bottom:25px;
+
+border-bottom:2px solid black;
+
+}
+
+#container{
+width:400px;
+overflow:hidden;
+}
+
+
+#sliderbox{
+position:relative;
+width:3200px;
+animation-name:slideranimation;
+animation-duration:20s;
+animation-iteration-count:infinite;
+}
+#sliderbox img{
+float:left;
+padding-top:21px;
+}
+
+
+@keyframes slideranimation{
+
+0%{
+left:0px;
+}
+20%{
+left:0px;
+}
+25%{
+left:-400px;
+
+}
+
+45%{
+
+left:-400px;
+}
+50%{
+
+left:-800px;
+}
+
+70%{
+
+left:-800px;
+}
+
+75%{
+
+left:-1200px;
+}
+95%{
+
+left:-1200px;
+}
+100%{
+
+left:-1600px;
+}
+}
+
+
+.intro-text{
+
+width:875px;
+float:right;
+padding-bottom:25px;
+border-bottom:2px solid black;
+
+}
+.intro-text h1{
+margin-top:0;
+text-transform:uppercase;
+padding-top:10px;
+
+}
+
+.details p{
+color:black;
+font-weight:bold;
+font-size:20px;
+padding-top:80px;
+margin-top:0;
+padding-bottom:15px;
+padding-left:15px;
+padding-right:15px;
+
+}
+
+.home-content{
+width:1325px;
+background:;
+margin-left:15px;
+margin-top:20px;
+}
+
+.home-col{
+width:421.66px;
+float:left;
+height:700px;
+background:;
+margin-left:15px;
+margin-bottom:15px;
+border-right:2px solid black;
+}
+.home-col:last-child{
+border:0;
+
+}
+
+.home-col h1{
+margin:30px 0 30px 0;
+
+}
+.home-col img{
+margin-left:10px;
+margin-right:10px;
+
+}
+
+.home-col p{
+padding-top:10px;
+color:black;
+font-size:19px;
+
+}
+
+.home-col p6{
+padding-top:10px;
+color:white;
+font-size:19px;
+}
+
+.home-col a{
+color:red;
+padding-bottom:5px;
+}
+.home-col h3{
+color:black;
+
+}
+
+.home-col .name{
+text-align:center;
+font-weight:bold;
+}
+
+.home-col .site ol{
+margin-top:10px;
+padding-left:60px;
+color:black;
+font-size:19px;
+font-weight:bold;
+}
+
+.bullet ul{
+padding-left:40px;
+color:black;
+font-size:19px;
+font-weight:bold;
+padding-bottom:10px;
+padding-top:55px;
+}
+
+.price{
+
+padding-top:40px;
+}
+.price h1{
+padding-left:40px;
+}
+
+.price p a{
+color:red;
+text-align:center;
+}
+
+.price p{
+padding-left:40px;
+color:black;
+font-size:20px;
+}
+
+.migration{
+padding-bottom:20px;
+padding-top:40px;
+}
+
+.migration h1,h3{
+color:black;
+padding-left:40px;
+}
+
+
+.migration p{
+color:black;
+padding-left:40px;
+padding-bottom:0;
+font-size:20px;
+}
+
+.migration a{
+color:red;
+padding-left:10px;
+padding-bottom:0;
+}
+
+/********************************************************************
+                            2. About us
+*********************************************************************/
+.ab h1{
+padding-left:25px;
+}
+
+.ab h3{
+padding-left:25px;
+}
+
+.ab p{
+
+padding-left:25px;
+padding-top:10px;
+padding-bottom:10px;
+}
+.ab{
+border-bottom:1px solid black;
+}
+
+.ab1 p0{
+font-size:20px;
+padding-top:15px;
+padding-left:25px;
+}
+.ab1 p{
+padding-left:25px;
+padding-top:15px;
+padding-bottom:10px;
+}
+.ab1{
+border-bottom:1px solid black;
+}
+
+.ab2 h2{
+padding-left:25px;
+padding-top:10px;
+}
+
+.ab2 h3{
+padding-left:25px;
+padding-top:10px;
+}
+
+.ab2 p{
+padding-left:25px;
+padding-top:15px;
+padding-bottom:10px;
+}
+.ab2{
+border-bottom:1px solid black;
+}
+
+
+.ab3 h2{
+padding-left:25px;
+padding-top:10px;
+}
+
+.ab3 h3{
+padding-left:25px;
+padding-top:10px;
+}
+
+.ab3 p{
+padding-left:25px;
+padding-top:15px;
+padding-bottom:10px;
+}
+.ab3{
+border-bottom:1px solid black;
+}
+
+.ab4 h2{
+padding-left:25px;
+padding-top:10px;
+}
+
+.ab4 h3{
+padding-left:25px;
+padding-top:10px;
+}
+
+.ab4 p{
+padding-left:25px;
+padding-top:15px;
+padding-bottom:10px;
+}
+.ab4{
+border-bottom:1px solid black;
+}
+
+.ab5 h2{
+padding-left:25px;
+padding-top:10px;
+}
+
+.ab5 h3{
+padding-left:25px;
+padding-top:10px;
+}
+
+.ab5 p{
+padding-left:25px;
+padding-top:15px;
+padding-bottom:10px;
+}
+.ab5{
+border-bottom:1px solid black;
+}
+
+
+.ab6 h2{
+padding-left:25px;
+padding-top:10px;
+}
+
+.ab6 h3{
+padding-left:25px;
+padding-top:10px;
+}
+
+.ab6 p{
+padding-left:25px;
+padding-top:15px;
+padding-bottom:10px;
+}
+.ab6{
+border-bottom:1px solid black;
+}
+
+
+.ab7 h2{
+padding-left:25px;
+padding-top:10px;
+}
+
+.ab7 h3{
+padding-left:25px;
+padding-top:10px;
+}
+
+.ab7 p{
+padding-left:25px;
+padding-top:15px;
+padding-bottom:10px;
+}
+.ab7{
+border-bottom:1px solid black;
+}
+
+
+.ab8 h2{
+padding-left:25px;
+padding-top:10px;
+}
+
+.ab8 h3{
+padding-left:25px;
+padding-top:10px;
+}
+
+.ab8 p{
+padding-left:25px;
+padding-top:15px;
+padding-bottom:10px;
+}
+.ab8{
+border-bottom:1px solid black;
+}
+
+
+.ab9 h2{
+padding-left:25px;
+padding-top:10px;
+}
+
+.ab9 h3{
+padding-left:25px;
+padding-top:10px;
+}
+
+.ab9 p{
+padding-left:25px;
+padding-top:15px;
+padding-bottom:10px;
+}
+.ab9{
+border-bottom:1px solid black;
+}
+
+.ab10 h2{
+padding-left:25px;
+padding-top:10px;
+}
+
+.ab10 h3{
+padding-left:25px;
+padding-top:10px;
+}
+
+.ab10 p{
+padding-left:25px;
+padding-top:15px;
+padding-bottom:10px;
+}
+.ab10{
+border-bottom:1px solid black;
+}
+
+
+.ab11 h2{
+padding-left:25px;
+padding-top:10px;
+}
+
+.ab11 h3{
+padding-left:25px;
+padding-top:10px;
+}
+
+.ab11 p{
+padding-left:25px;
+padding-top:15px;
+padding-bottom:10px;
+}
+.ab11{
+border-bottom:1px solid black;
+}
+
+/********************************************************************
+                            3. Contact us
+*********************************************************************/
+.contact{
+
+padding-left:15px;
+padding-top:15px;
+}
+
+.contact h1{
+color:green;
+
+}
+
+.contact p{
+color:green;
+
+}
+
+form{
+background-image:url(../images/4159232953.jpeg);
+padding:20px 200px 10px 200px;
+}
+form p2{
+color:red;
+
+}
+
+form label p{
+color:black;
+
+}
+
+/********************************************************************
+                            4. Reservation
+*********************************************************************/
+.res{
+padding-left:20px;
+padding-top:15px;
+
+}
+
+.res ul li{
+
+list-style:none;
+display:inline-block;
+border-right:1px solid black;
+
+}
+
+.res ul li a{
+text-decoration:none;
+padding-right:10px;
+padding-left:30px;
+color:blue;
+}
+
+.res ul li:last-child{
+border:0;
+}
+
+.res ul li a:hover{
+color:white;
+background:black;
+}
+
+.inside{
+padding-bottom:10px;
+
+}
+
+
+.inside h1{
+padding-left:20px;
+padding-top:20px;
+color:black;
+}
+
+.inside p{
+color:black;
+font-size:18px;
+padding-left:20px;
+}
+
+.inside p a{
+color:red;
+
+}
+
+.inside ul li{
+ margin-left:80px;
+font-size:18px;
+}
+
+.inside ul ol li{
+margin-left:130px;
+font-size:18px;
+
+}
+.main ol li{
+margin-top:10px;
+margin-left:35px;
+font-size:18px;
+}
+
+/********************************************************************
+                            5. Terms & Conditions
+*********************************************************************/
+.terms{
+padding-bottom:10px;
+}
+
+.terms h1{
+padding-left:10px;
+padding-top:10px;
+}
+
+.terms ul{
+margin-left:80px;
+color:black;
+}
+.terms p{
+padding-left:25px;
+color:black;
+padding-right:15px;
+}
+.terms ul li{
+font-weight:bold;
+
+
+}
+
+/********************************************************************
+                            6. Payment Methods
+*********************************************************************/
+.pay{
+padding-bottom:10px;
+margin-left:50px;
+
+}
+
+.pay ol li{
+padding-top:10px;
+
+}
+  
+/********************************************************************
+                            7. Bird Watching
+*********************************************************************/
+.bw{
+padding-bottom:15px;
+}
+
+.bw h1{
+padding-top:10px;
+text-align:center;
+}
+
+.bw p{
+padding:15px 15px 10px 15px;
+font-size:18px;
+}
+
+.bw p1{
+padding-left:15px;
+font-weight:bold;
+}
+.bw p2 a{
+text-decoration:none;
+color:red;
+}
+.bw p a{
+text-decoration:none;
+color:red;
+}
+
+.bw img{
+padding-left:200px;
+padding-bottom:30px;
+}
+
+/********************************************************************
+                            8. Bird Photography Tour
+*********************************************************************/
+.ph{
+padding-bottom:25px;
+}
+
+
+.ph h1{
+padding-left:25px;
+}
+.ph p{
+padding-left:25px;
+padding-top:10px;
+}
+
+.ph p4{
+font-size:20px;
+padding-left:45px;
+padding-top:10px;
+}
+
+.ph img{
+padding-bottom:10px;
+padding-top:10px;
+padding-left:200px;
+}
+
+.ph p5{
+font-size:23px;
+
+}
+
+.ph ol{
+padding-left:25px;
+
+}
+
+.ph ol li{
+padding-top:10px;
+}
+.ph a{
+color:red;
+
+}
+
+
+
+
+/********************************************************************
+                            9. Trip Reports
+*********************************************************************/
+.tri{
+width:1325px;
+margin-left:15px;
+margin-right:15px;
+
+
+}
+
+.tri h1{
+color:black;
+
+}
+
+
+.tri1{
+width:700px;
+float:left;
+
+padding-top:15px;
+padding-right:20px;
+padding-bottom:25px;
+
+}
+
+
+.tri1 h1{
+
+color:blue;
+}
+
+.tri3{
+
+width:600px;
+float:right;
+padding-bottom:25px;
+padding-top:15px;
+
+}
+.tri3 h1{
+
+color:blue;
+}
+
+/********************************************************************
+                            10. Birding Sites
+*********************************************************************/
+.sup{
+width:1325px;
+
+margin-left:15px;
+margin-right:15px;
+background:;
+padding-bottom:30px;
+
+}
+
+.sup h1{
+text-align:center;
+color:green;
+}
+
+
+.sup-image{
+width:500px;
+height:700px;
+float:left;
+
+padding-top:25px;
+padding-right:0;
+padding-bottom:25px;
+padding-left:25px;
+
+
+}
+
+.sup-text{
+
+width:500px;
+float:right;
+padding-bottom:25px;
+padding-top:55px;
+
+padding-right:250px;
+}
+.sup-text h1{
+margin-top:0;
+text-transform:uppercase;
+padding-top:10px;
+
+}
+.sit ol{
+padding-left:25px;
+color:black;
+}
+
+.sit p{
+color:black;
+}
+
+.sit li{
+padding-top:10px;
+}
+
+/********************************************************************
+                            11. Price
+*********************************************************************/
+.transport{
+padding-left:30px;
+padding-top:40px;
+}
+.transport h1{
+padding-left:40px;
+}
+
+.transport p{
+padding-left:40px;
+padding-top:0px;
+color:black;
+font-weight:bold;
+font-size:20px;
+}
+
+.transport p a{
+color:blue;}
+
+.tra-text{
+padding-top:300px;
+float:right;
+
+}
+
+ 
+.tra-text p{
+
+padding-right:15px;
+font-size:18px;
+}
+
+
+.tra-img{
+padding-top:20px;
+float:left;
+}
+
+/********************************************************************
+                            12. Speciality Birds
+*********************************************************************/
+.spe{
+width:1325px;
+
+margin-left:15px;
+margin-right:0px;
+background:;
+padding-bottom:0;
+
+}
+
+
+.spe a{
+color:red;
+
+}
+                       
+.spe h1{
+  padding-top:10px; 
+padding-left:10px;
+
+}
+
+.spe h3{
+ padding-top:10px; 
+padding-left:10px;
+}
+.spe p{
+
+padding-top:10px; 
+padding-left:10px;
+padding-bottom:10px;
+}
+
+.typ-image{
+width:850px;
+float:right;
+
+padding-top:17px;
+padding-right:25px;
+padding-bottom:25px;
+
+
+}
+
+.typ{
+
+width:400px;
+float:left;
+padding-bottom:25px;
+
+
+}
+
+.typ ul li{
+padding-top:4px;
+margin-left:60px;
+color:green;
+} 
+.typ ul a{
+padding-top:10px;
+
+}
+/********************************************************************
+                            13. Migration
+*********************************************************************/
+.mig{
+padding-left:25px;
+width:1320px;
+padding-bottom:45px;
+
+}
+
+.mig img{
+padding-top:25px;
+padding-bottom:25px;
+padding-left:500px;
+
+}
+
+.mig-text{
+float:left;
+width:426.66px;
+color:black;
+padding-left:10px;
+
+}
+
+.mig-text p{
+color:black;
+padding-right:25px;
+
+}
+
+
+.mig h{
+padding-left:25px;
+padding-bottom:25px;
+}
+
+.mig p{
+color:black;
+
+}
+
+.mig a{
+color:red;
+}                         
